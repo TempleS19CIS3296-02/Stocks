@@ -1,0 +1,45 @@
+
+body {
+    background: url("../Images/Background/stockBoard.jpg") rgb(0,0,139);
+    background-size: cover;
+}
+
+#titlePage {
+    float: left;
+    font: italic normal 40px serif, Times, serif;
+}
+#nav {
+    float: right;
+}
+#titleNav {
+    display: inline-block;
+    white-space: nowrap;
+    border:2px solid goldenrod;
+    background:rgb(234, 234, 190);
+    position: fixed;
+    width:99.7%;
+    left: 0px;
+    top: 0px;
+    padding: 10px 0px;
+    z-index: 100;
+}
+
+
+#benPortrait{
+    float: left;
+    width: 350px;
+    height: auto;
+}
+
+
+.dropdown {
+
+    position: relative;
+
+    display: inline-block;
+
+    margin-right: 1ex;
+
+    cursor: pointer;
+}
+
